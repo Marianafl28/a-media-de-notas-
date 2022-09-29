@@ -1,11 +1,11 @@
-Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+Algoritmo "media de notas"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// Professor   : Rafael
+// DescriÃ§Ã£o   : O programa calcula a media dos alunos e diz se ele foi aprovado ou nÃ£o.
+// Autor(a)    : Mariana Fernandes Lopes
 // Data atual  : 29/09/2022
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 nota1:real
 nota2:real
 nota3:real
@@ -23,7 +23,7 @@ leia(nota4)
 escreval ((nota1+nota2+nota3+nota4)/4)
 media <- ((nota1+nota2+nota3+nota4)/4)
 escreval (media/4)
-escreval("a media dos alunos é",(media))
+escreval("a media dos alunos Ã©",(media))
 se media=10 entao
 escreval("parabens!!")
 se media >=6 entao
